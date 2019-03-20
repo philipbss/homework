@@ -1,0 +1,260 @@
+* { margin: 0;padding: 0;}
+body {
+    background-color: #F7F7F7;
+    font-size: 14px;
+}
+
+/* 标题 */
+.top {
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    text-align: center;
+    background: #18BEBE;
+    position: relative;
+}
+.top>img {
+    position: absolute;
+    left: 50%;
+    margin-left: -83px;
+    top: 50%;
+    margin-top: -21.5px;
+}
+/* 导航 */
+.nav-outside {
+    width: 100%;
+    background: #F2EFF1;
+}
+.nav {
+    width: 1000px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.nav-left {
+    position: absolute;
+    left: 0;
+}
+.location {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.nav-left>a {
+    font-size: 12px;
+    line-height: 40px;
+}
+.nav-mid {
+    position: absolute;
+    width: 400px;
+    left: 340px;
+}
+.nav-left>img {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -9.5px;
+}
+.nav-mid>a {
+    font-size: 18px;
+    line-height: 40px;
+    display: inline-block;
+    width: 80px;
+}
+.nav-right {
+    position: absolute;
+    right: 0;
+}
+.nav-right>a {
+    font-size: 12px;
+    line-height: 40px;
+}
+.nav-right>a:hover {
+    color: #F9BF50;
+}
+.nav-right>img {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: 50%;
+    right: 55px;
+    margin-top: -9.5px;
+}
+.nav>div>a {
+    text-decoration: none;
+    color: #666666;
+}
+
+/* 中间部分 */
+.mid{
+    width: 1000px;
+    margin: 20px auto 0;
+}
+.left-menu{
+    width: 200px;
+    /* height: 730px; */
+    border: 1px solid #EAEAEA;
+    float: left;
+    background-color: #F0F0F0;
+}
+.left-menu>a{
+    display: inline-block;
+    width: 201px;
+    line-height: 60px;
+    text-decoration: none;
+    border: 0.5px solid #E1E1E1;
+    border-left: 4px solid #1AC0C0;
+    background-color: #EBEBEB;
+    box-sizing: border-box;
+    text-align: center;
+    color: #1AC0C0;
+}
+.left-menu>a:hover{
+    color: #F9BF50;
+}
+.left-menu ul{
+    list-style: none;
+    margin: 10px 0 0 55px;
+}
+.child-menu{
+    font-size: 16px;
+    font-weight: bold;
+    color: #505050;
+    padding: 5px 0;
+}
+.child-menu::before{
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-image: url('/images/open.png');
+    margin-left: -20px;
+}
+.left-menu>ul>li>a{
+    text-decoration: none;
+    color: #484848;
+}
+ul>li>.tab:hover{
+    color: #F9BF50;
+}
+.left-menu ul li:not(first-child) {
+/* .left-menu ul li:not(first-child) = ul>li>a*/
+    line-height: 30px;
+    text-decoration: none;
+    color: #484848;
+}
+iframe{
+    margin-left: 20px;
+    height: 788px;
+    width: 730px;
+    background-color: #F0F0F0;
+}
+
+/* 底部 */
+.final {
+    width: 100%;
+    height: 220px;
+    margin-top: 50px;
+    background: #515151;
+}
+
+.finally {
+    width: 1000px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 10px;
+    color: #D1D1D0;
+}
+
+.finally-left {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 440px;
+    height: 140px;
+}
+
+.finally-left>span {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+.finally-left>p {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.finally-mid-left {
+    position: absolute;
+    left: 580px;
+    top: 70px;
+}
+
+.finally-mid-right {
+    position: absolute;
+    left: 700px;
+    top: 70px;
+}
+
+.finally-right {
+    position: absolute;
+    left: 850px;
+    top: 70px;
+}
+.finally-right>ul>li>a{
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+}
+.finally-right>ul>li>i{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin: auto;
+    left: 0;right: 0;top: 0;bottom: 0;
+}
+.finally>div>ul>li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.finally>div>ul>li>a {
+    text-decoration: none;
+    color: #D1D1D0;
+    font-size: 12px;
+}
+
+.finally-right>ul>li>a>.iconfont {
+    font-size: 25px;
+}
+
+hr {
+    width: 1030px;
+    position: absolute;
+    top: 180px;
+    box-sizing: border-box;
+    border: 0.5px solid #D1D1D0;
+}
+
+.finally-bottom-left {
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    font-size: 14px;
+}
+
+.finally-bottom-right {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 14px;
+}

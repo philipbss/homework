@@ -1,0 +1,258 @@
+*{margin: 0;padding: 0;}
+/* 顶部 */
+.top{
+    width: 100%;
+    height:98px;
+    background: white;
+}
+.logo{
+    margin: auto;
+    left: 5%;right: 0;top: 24.5px;
+    max-width: 100%;
+    height: 50px;
+    position: relative; 
+}
+.logo>i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    width: 49px;
+    height: 49px;
+    background-color:#F56600; 
+    background-image: url('../images/mi-logo.png')
+}
+.logo>a{
+    position: absolute;
+    left: 70px;
+    top:-5px;
+    color: #656565;
+    text-decoration: none;
+    font-size: 32.5px;
+}
+.logo>p{
+    position: absolute;
+    left: 70px;
+    top:39px;
+    font-size: 10px;
+    color: #656565;
+}
+
+/* container */
+.container{
+    width: 100%;
+    height: 558px;
+    position: relative;
+    background-image: url('../images/小米9背景.jpg');
+    background-position:center center; 
+}
+/* 登录框 */
+.box{
+    width: 410px;
+    height: 554px;
+    font-size: 14px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    background: white;
+}
+.box-top a:first-child::after {
+    content: "|";
+    display: inline-block;
+    width: 1px;
+    height: 24px;
+    margin: 0 35px 0 42px;
+    color: #e0e0e0;
+
+}
+.box-top{
+    width: 410px;
+    height: 83px;
+    text-align: center;
+    line-height: 83px;
+}
+.box-top>a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #666;
+}
+.box-top>.active{
+    color: #ff6700; 
+}
+.box-top>.active:hover{
+    color: #ff6700;
+}
+
+.box-mid{
+    width: 410px;
+    height: 256px;
+}
+.mid-psd>input{
+    box-sizing: border-box;
+    width: 346px;
+    height: 48px;
+    line-height: 22px;
+    color: #C7C7C7;
+    padding: 13px 16px 13px 14px;
+    display: block;
+    margin:0 auto 10px;
+    border: 1px solid #EFEFEF;
+}
+.mid-login>input{
+    background-color: #ff6700;
+    box-sizing: border-box;
+    border: 1px solid  #EFEFEF;
+    width: 348px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin: 14px auto 0px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.mid-register{
+    width: 348px;
+    text-align: center;
+    border: 0 none;
+    height: auto;
+    line-height: normal;
+    margin: 10px auto;
+    position: relative;
+
+}
+.mid-register-right{
+    color:#e0e0e0;
+    right: 2px;
+    position: absolute;
+}
+.mid-register>a{
+    position: absolute;
+    color: #ff6700;
+    text-decoration: none;
+    left: 0;
+
+}
+.mid-register-right>a{
+    color:#A5A5A5;
+    text-decoration: none;
+}
+.mid-register-right>a:hover{
+    color: #ff6700;
+}
+
+.horizontal-line{
+    width: 348px;
+    text-align: center;
+    margin: 100px auto 0;
+}
+.horizontal-line>p{
+    display: inline-block;
+    font-size: 14px;
+    color: #A5A5A5;
+}
+.line-left{
+    float: left;
+    margin-top: 9px;
+}
+.line-right{
+    margin-top: 9px;
+    float: right;
+}
+hr{
+    width: 132px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 0.5px solid #e0e0e0;
+}
+
+.form{
+    margin:10px auto 0;
+    width:348px;
+    height: 40px;
+    border:none;
+    text-align: center;
+}
+.form>a{
+    display: inline-block;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 17px;
+}
+.form>a>i{
+    display: inline-block;
+    width:18px;
+    height:18px;
+    background-image: url('../images/icons_type.png');
+    position: absolute;
+    margin:auto;
+    top:0;left:0;bottom:0;right:0;
+}
+.form>.qq{background:#0288D1 }
+.qq>i{
+    background-position-x: -19px;
+}
+.weibo{background-color:#D32F2F }
+.weibo>i{
+    background-position-x: -38px;
+}
+.form>.zhifu{background:#0288D1 }
+.form>.zhifu>i{
+    background-position-x: -57px;
+    width:25px;
+}
+.weixin{background-color: #00D20D}
+.form>.weixin>i{
+    width:24px;
+    background-position-x: -83px;
+}
+.saoma{
+    height: 180px;
+    position: relative;
+    display: none;
+}
+.saoma>img{
+    position: absolute;
+    top:120px;
+    left:125px ;
+}
+.saoma>p{
+    position: absolute;
+    top:320px;
+    left:65px ;
+    text-align: center;
+    color: #6B6B6B;
+}
+
+
+/* 底部 */
+.bottom{
+    height: 100px;;
+    text-align: center;       
+  }
+.language{
+    margin:80px auto 0 ;
+    color:#A5A5A5;
+  }
+.language>ul>li{
+    display: inline-block;
+  }
+.language>ul>li>a{
+    text-decoration: none;
+    text-align: center;  
+    color:#A5A5A5;
+}
+.language>ul>li>a:hover{
+    color:#6B6B6B;
+}
+
+.bottom-word{
+    margin-top: 10px;
+    color:#A5A5A5;
+  }
+
+
+
